@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Magzine Form</title>
+    <style>input[type=text] {
+        
+        border: none;
+        border-bottom: 2px solid rgb(0, 0, 0);
+
+      }
+      .out,.out1,.out2{
+          display:flex;
+          flex-direction: row;
+          
+          
+          
+      }
+      .in1,.in2,.in3,.in4,.in5,.in6{
+          display:flex;
+          flex-direction: column;
+          text-align: center;
+      }
+    
+  
+  
+
+
+</style>
+</head>
+<body>
+    
+    <for method="get" onsubmit="submit()">
+    <h1><mark>Yes! I want to subscribe to <i>Mag-O-Zine</i></mark></h1>
+
+    <div class="out">
+        <div class="in1">
+    <input type="text" id="fname" style="font-style: italic;" size="25">
+    <label for="fname" text-align="center">First Name</label>
+    </div>
+
+    <div class="in2">
+    <input type="text" id="lname" style="font-style: italic;" size="25">
+   
+    <label for="lname" >Last Name</label><br>
+    </div>
+
+    </div>
+    <div class="out2">
+<div class="in3">
+    <input type="text" id="address" style="font-style: italic;" size="50"><br><br>
+    <label for="address">Address</label><br>
+    </div>
+    </div>
+
+    <div class="out1">
+        <div class="in4">
+    <input type="text" id="city" style="font-style: italic;" size="15">
+    <label for="city" display="below">City</label>
+    </div>
+    
+    <div class="in5">
+    <input type="text" id="state" style="font-style: italic;" size="15">
+    <label for="state" size="15">State</label>
+    </div>
+    
+<div class="in6">
+    <input type="text" id="zip" style="font-style: italic;" size="15">
+  
+   
+    <label for="zip" size="15">Zip</label><br><br>
+</div>
+</div>
+
+    <b>Subscribe for: </b><input type="checkbox" id="1"><b>1 year($19.95)</b><input type="checkbox" id="2"><b>2 years($35.00)</b>
+    <br><br>
+    <b>Send me more information about:</b><br>
+    <input type="checkbox" id="a"><b>Computer-Zine</b><br>
+    <input type="checkbox" id="b"><b>Fishing-Zine</b><br>
+    <input type="checkbox" id="c"><b>Cat-O-Zine</b><br>
+
+
+
+    
+    
+    </form>
+    
+</body>
+</html>
